@@ -16,7 +16,7 @@ public class delete extends Ex{
         Ex a = new Ex();
         Ex a1 = new delete();
 
-        int[] arr = {1, 56, 78, 90, 34, 23, 34, 78, 90, 23, 34};
+        int[] arr = {1, 56, 78, 90, 34, 23, 34, 78, 90, 23, 34, 91};
         int smax = 0;
         int fmax = 0;
         for (int i = 0; i < arr.length; i++)
@@ -31,6 +31,8 @@ public class delete extends Ex{
             else if(smax<arr[i] & arr[i]!=fmax)
                 smax = arr[i];
         }
+
+        System.out.println(smax +"  " + fmax);
 
         String s = "Ayush";
         char[] ch =s.toCharArray();
