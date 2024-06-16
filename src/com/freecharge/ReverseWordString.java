@@ -7,6 +7,16 @@ public class ReverseWordString {
         String str = "My Name is Bhavuk";
 //        Output string :- "Bhavuk is Name My"
 
+        String rev = "";
 
+
+        String []arr = str.split(" ");
+
+        for(String s : arr)
+        {
+            rev = s + " " + rev;
+        }
+
+        System.out.println(rev);
     }
 }

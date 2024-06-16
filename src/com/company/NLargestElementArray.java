@@ -29,5 +29,10 @@ public class NLargestElementArray {
 
         }
 
+        for(int a :arr)
+        {
+            System.out.println(a);
+        }
+
     }
 }
