@@ -5,7 +5,7 @@ public class LowestLengthSubstring {
     public static void main(String[] args) {
         
         int min = 0;
-        String[] arr = {"geeks", "geeksforgeeks", "geek", "geeksfor", "geeky"};
+        String[] arr = {"geeks", "geeksforgeeks", "geek", "geeksfor", "geeky", "dxdgh"};
 
         for (int i=0; i<arr.length-1; i++) {
 
